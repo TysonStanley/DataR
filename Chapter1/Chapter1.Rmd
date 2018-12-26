@@ -1,0 +1,22 @@
+---
+title: "Chapter 1 Application"
+output: html_document
+---
+
+This document is an RMarkdown document. This right here is nothing more than text. The stuff below is what is known as a code chunk. Everything between the top ticks (<code>```</code>) is R code.
+
+```{r}
+#install.packages("rio") ## uncomment this line to install rio
+df <- rio::import("OfficeParks.csv")
+df
+```
+
+Below is code to check out the data frame.
+
+```{r}
+str(df)
+names(df)
+summary(df)
+```
+
+

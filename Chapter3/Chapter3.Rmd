@@ -31,7 +31,7 @@ Recreate the table above but use a grouping variable to stratify the descriptive
 
 ## Data Visualizations
 
-Create three data visualizations looking at three variables/relationships that you are interested in.
+Create three data visualizations looking at three variables/relationships that you are interested in using the `ggplot2` package.
 
 ```{r}
 

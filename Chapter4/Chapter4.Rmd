@@ -1,5 +1,5 @@
 ---
-title: "Chapter 4 Application"
+title: "Chapter 4, 5, 6, and 7 Applications"
 output: html_document
 ---
 
@@ -9,23 +9,105 @@ In the following code chunks, complete each section.
 
 ## Import the Data
 
-Import the data.
+Import the data (with something like `rio::import()`).
 
 ```{r}
 
 ```
 
-## ANOVA
+## Chapter 4
 
-Run an ANOVA.
+### T-test
+
+Run a t-test with the data. You pick which variables to use.
 
 ```{r}
 
 ```
 
-## Linear Regression
 
-Run an linear regression.
+### ANOVA
+
+Run an ANOVA with the same model as the t-test above.
+
+```{r}
+
+```
+
+### Linear Regression
+
+Run an linear regression with any of the variables you'd like to.
+
+```{r}
+
+```
+
+## Chapter 5
+
+### Logistic Regression
+
+Run a logistic regression model with any of the predictors but use one of the binary variables for the outcome.
+
+```{r}
+
+```
+
+
+
+## Chapter 6
+
+To do this chapter, we need to first reshape the data to make it "tidy." We can do that here with `furniture::long()`.
+
+```{r}
+
+```
+
+No that we have a "tidy" version of the data, we can run the multilevel models below.
+
+### GEE 
+
+Run a GEE model.
+
+```{r}
+
+```
+
+
+### Mixed Effects Model
+
+Run a mixed effects model.
+
+```{r}
+
+```
+
+
+## Chapter 7
+
+We can go back to our "untidy" data to run these models.
+
+### Mediation Model
+
+Run a mediation model using either `MarginalMediation` or `lavaan`.
+
+```{r}
+
+```
+
+
+### Structural Equation Modeling
+
+Run an SEM model using `lavaan`.
+
+
+```{r}
+
+```
+
+
+### Machine Learning Techniques
+
+Run any of the machine learning techniques we've learned using the `caret` package.
 
 ```{r}
 

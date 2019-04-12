@@ -15,34 +15,24 @@ Import the data.
 
 ```
 
-
-## Make the Data Long
-
-```{r}
-
-```
-
-## Make It Wide Again
+## Run a Linear Regression Model
 
 ```{r}
 
 ```
 
-## Use Loops to Make All NAs Equal to 0
-
-Not generally a good idea but go ahead and give it a try anyway.
+## Create a Table of Results with `knitr`
 
 ```{r}
 
 ```
 
-## Write Your Own Function
+## Report Statistics with In-Line Code Chunks
 
-This function should report the highest earning individual in the data.
+The results of the linear regression showed ...
 
-```{r}
 
-```
+## Knit this document
 
 
 
